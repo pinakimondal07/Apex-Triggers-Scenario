@@ -1,0 +1,12 @@
+<template>
+    <lightning-card title="Pass Data To Flow From LWC" icon-name="standard:contact">
+        <div class="slds-p-around_medium lgc-bg">
+            <lightning-button
+                label="Display Contacts FROM LWC"
+                onclick={handleGoNext} class="slds-m-left_x-small" icon-name="utility:preview"
+            ></lightning-button>
+            <lightning-input type="text" label="Enter some text in LWC Input component"
+                onchange={handleChange}></lightning-input>
+        </div>
+    </lightning-card>
+</template>
